@@ -24,6 +24,13 @@ function(hljs) {
         excludeEnd: true,
       },
       {
+        className: 'addition',
+        begin: '@ADDONS_REPO@',
+        end: '.',
+        excludeEnd: true,
+        relevance: 10,
+      },
+      {
         className: 'title',
         begin: '(?:s(?:cr(?:eensaver|ipt)|ervice|kin)|i(?:magedecoder|nputstream)|p(?:eripheral|lugin|vr)|re(?:pository|source)|(?:webinterfac|gam)e|v(?:isualization|fs)|audio(?:de|en)coder|metadata|kodi|xbmc)(\\.[a-zA-Z0-9_-]+)+',
         end: '.',

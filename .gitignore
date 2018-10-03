@@ -1,4 +1,5 @@
 .DS_Store
+addons/
 build
 docs/_build
 .idea/
@@ -7,3 +8,4 @@ __pycache__
 node_modules
 .project
 yarn.lock
+src/languages/kodi.js
